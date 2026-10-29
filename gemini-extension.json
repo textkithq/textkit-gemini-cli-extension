@@ -1,0 +1,11 @@
+{
+  "name": "textkit",
+  "version": "1.0.0",
+  "description": "Send and receive SMS, verify phone numbers, buy numbers, and run broadcasts and automations with TextKit.",
+  "mcpServers": {
+    "textkit": {
+      "httpUrl": "https://mcp.jointextkit.com"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
