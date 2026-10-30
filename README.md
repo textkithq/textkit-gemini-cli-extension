@@ -1,6 +1,6 @@
 # TextKit extension for Gemini CLI
 
-Adds the [TextKit](https://jointextkit.com) MCP server to Gemini CLI: send and receive SMS, verify phone numbers, buy numbers, load contacts, build segments, and run broadcasts and automations from the terminal.
+Adds the [TextKit](https://jointextkit.com?ref=gh-gemini-extension) MCP server to Gemini CLI: send and receive SMS, verify phone numbers, buy numbers, load contacts, build segments, and run broadcasts and automations from the terminal.
 
 ## Install
 
@@ -30,14 +30,14 @@ Skip the extension and add the server with a header:
 gemini mcp add --transport http --header "Authorization: Bearer ssms_sk_test_..." textkit https://mcp.jointextkit.com
 ```
 
-Get a key at [jointextkit.com/console](https://jointextkit.com/console).
+Get a key at [jointextkit.com/console](https://jointextkit.com/console?ref=gh-gemini-extension).
 
 ## What's inside
 
 - `gemini-extension.json`: the remote server `https://mcp.jointextkit.com` (streamable HTTP).
 - `GEMINI.md`: usage notes loaded into Gemini's context (dry runs before bulk sends, consent, E.164 numbers).
 
-Docs: https://jointextkit.com/docs/mcp
+Docs: https://jointextkit.com/docs/mcp?ref=gh-gemini-extension
 
 ## License
 
